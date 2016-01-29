@@ -46,7 +46,7 @@ html(lang:'en') {
             span(class: 'icon-bar', '')
           }
 
-          a(class: 'navbar-brand', href: '/', 'Brand')
+          a(class: 'navbar-brand', href: '/', 'Ratpack')
         }
 
         div(class: 'collapse navbar-collapse', id: 'bs-example-navbar-collapse-1') {
