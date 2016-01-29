@@ -17,6 +17,9 @@ html(lang:'en') {
     )
 
     script(
+      src: '//code.jquery.com/jquery-1.12.0.min.js', ''
+    )
+    script(
       src:"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js",
       integrity:"sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS",
       crossorigin:"anonymous",
@@ -48,8 +51,8 @@ html(lang:'en') {
 
         div(class: 'collapse navbar-collapse', id: 'bs-example-navbar-collapse-1') {
           ul(class: 'nav navbar-nav') {
-            li(class: 'active') {
-              a(href: '#', 'Link')
+            li {
+              a(href: '/say-hello', 'Say Hello')
             }
           }
         }
