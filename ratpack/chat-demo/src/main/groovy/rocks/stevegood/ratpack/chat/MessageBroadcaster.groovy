@@ -21,7 +21,7 @@ class MessageBroadcaster {
       }
     } connect {
       it.onClose {
-        it.openResult.close()
+        it?.openResult?.close()
       }
     }
   }
